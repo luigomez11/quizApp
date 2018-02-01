@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>~Baseball Trivia~</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="floatgrid.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lobster" rel="stylesheet">
+</head>
+
+<body>
+<main role="main">
+    <div class="grid row">
+        <div id="quiz">
+            <h1>~Baseball Trivia~</h1>
+
+            <div class="col-12 center">
+                <button class="beginButton">Play ball!</button>
+            </div>
+
+            <div class="page hidden">
+                <div id="question" class="center col-4">
+                </div>
+
+                <div class="form col-4">
+                    <form role="form" action="" method="">
+                    	<fieldset name="choices">
+                        	<label for="choice01" class="choice01"></label><br>
+                        	<label for="choice02" class="choice02"></label><br>
+                        	<label for="choice03" class="choice03"></label><br>
+                        	<label for="choice04" class="choice04"></label><br>
+                        </fieldset>
+                        <div class="center">
+                        <button type="submit" id="submit" name="submit">Submit</button>
+                    </div>
+
+                    </form>
+                </div>
+
+                <div class="nextDiv center col-4 hidden">
+                    <p></p>
+                    <button type="button" id="nextQuestion" name="next">Next</button>
+                </div>
+
+
+                <div class="tracker center col-4">
+                    <p id="progress"></p>
+                    <p id="score"></p>
+                </div>
+
+            </div>
+
+            <div class="end center col-12">
+                <p id="finished" class="hidden"></p>
+                <button class="restart hidden">Restart the Quiz!</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</main>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+
+
+.wrong{
+	background-color: red;
+}
+
+.right{
+	background-color: green;
+}
+
+.blank{
+	background-color: white;
+}
+
+.grid{
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0px 40px 40px 40px;
+	border-radius: 50px;
+	border: 2px solid darkgrey;
+	box-shadow: 10px 15px 5px darkgrey;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/2017/08/free-baseball-backgrounds-24.jpeg");
+}
+
+.grid h1{
+	font-family: 'Lobster', cursive;
+	text-shadow: 4px 1px 2px rgba(255, 255, 255, 1);
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	padding: 2px 0px;
+	border-radius: 50px;
+}
+
+.beginButton{
+	background-color: white;
+	color: green;
+	font-size: 20px;
+}
+
+.center{
+	text-align: center;
+}
+
+.beginButton:hover, .restart:hover, #submit:hover, #nextQuestion:hover{
+	background-color: green;
+	color: white;
+}
+
+#question, .form, .tracker, .nextDiv {
+	font-family: 'Crimson Text', serif;
+}
+fieldset{
+	border: none;
+}
+
+.tracker, .form, #question, .nextDiv{
+	border: 2px solid red;
+	background-color: lightgrey;
+	font-size: 20px;
+}
+
+.end {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#submit, #nextQuestion{
+	color: green;
+	background-color: white;
+	font-size: 20px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.restart{
+	color: green;
+	background-color: white;
+}
+
+#question{
+	padding-top: 30px;
+}
+
+.form, .tracker, .nextDiv{
+	padding-top: 10px;
+}
