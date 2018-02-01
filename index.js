@@ -132,10 +132,10 @@ function begin() {
 
 function renderQuestion() {
     $('#question').html(questions[current].question);
-    $('.choice01').html(`<input type="radio" name="choice" value="choice01" required>${questions[current].choices[0]}`);
-    $('.choice02').html(`<input type="radio" name="choice" value="choice02">${questions[current].choices[1]}`);
-    $('.choice03').html(`<input type="radio" name="choice" value="choice03">${questions[current].choices[2]}`);
-    $('.choice04').html(`<input type="radio" name="choice" value="choice04">${questions[current].choices[3]}`);
+    $('.choice01').html(`<input type="radio" name="choice01" value="choice01" required>${questions[current].choices[0]}`);
+    $('.choice02').html(`<input type="radio" name="choice02" value="choice02">${questions[current].choices[1]}`);
+    $('.choice03').html(`<input type="radio" name="choice03" value="choice03">${questions[current].choices[2]}`);
+    $('.choice04').html(`<input type="radio" name="choice04" value="choice04">${questions[current].choices[3]}`);
     $(uncheck);
 }
 
